@@ -39,8 +39,8 @@ export default class Header extends Component
                 </header>
                 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 289.83">
                     <linearGradient id="bg-svg-topo-header" x2="1" y2="0">
-                        <stop offset="0%" stopColor="#0a1b35" />
-                        <stop offset="100%" stopColor="#271b63" />
+                        <stop offset="0%" stopColor="#001515" />
+                        <stop offset="100%" stopColor="#002626" />
                     </linearGradient>
                     <path fill="url(#bg-svg-topo-header)" stroke="none"
                     d="M1920,74.7s-534.19,194.41-721.38,210C538.28,339.7-1,74.7-1,74.7V-.3H1920Z" />

@@ -24,11 +24,11 @@ body {
 }
 
 .bg-light-blue {
-    background-color: #44c5c0;
+    background-color: #00ef77;
 }
 
 .bg-dark-blue {
-    background-color: #121b44;
+    background-color: #002626;
 }
 
 .color-white {
@@ -40,11 +40,11 @@ body {
 }
 
 .color-dark-blue {
-    color: #121b44 !important;
+    color: #001515 !important;
 }
 
 .color-light-blue {
-    color: #44c5c0;
+    color: #00ef77;
 }
 
 .color-black {
@@ -54,7 +54,7 @@ body {
 .container-header {
     background-image:
         linear-gradient(to right,
-            #0a1b35, #271b63);
+            #001515, #002626);
 }
 
 .container-header,
@@ -142,7 +142,7 @@ body {
 }
 
 .carousel-indicators .active {
-    background-color: #44c5c0;
+    background-color: #00ef77;
 }
 
 .carousel {
@@ -334,7 +334,7 @@ section.planos-home {
 }
 
 .container-beneficios {
-    background-color: #121b44;
+    background-color: #002626;
     position: relative;
     padding: 0px 0 10px 0;
 }
@@ -573,7 +573,7 @@ ul.lista-plano li {
 }
 
 ul.lista-plano li:nth-child(even) {
-    background: #DFF6FC
+    background: #d2ffef
 }
 
 ul.lista-plano li:nth-child(odd) {
@@ -618,20 +618,20 @@ ul.slide-menu-items li {
     box-sizing: border-box;
     display: flex;
     cursor: pointer;
-    background-color: #DFF6FC;
-    border-bottom: 1px dashed #44c5c0;
+    background-color: #d2ffef;
+    border-bottom: 1px dashed #00ef77;
 }
 
 ul.slide-menu-items li:hover {
-    border-bottom: 1px dashed #121b44;
+    border-bottom: 1px dashed #001515;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0a1b35+0,261a62+100 */
     background: #0a1b35;
     /* Old browsers */
-    background: -moz-linear-gradient(left, #0a1b35 0%, #261a62 100%);
+    background: -moz-linear-gradient(left, #001515 0%, #002626 100%);
     /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #0a1b35 0%, #261a62 100%);
+    background: -webkit-linear-gradient(left, #001515 0%, #002626 100%);
     /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #0a1b35 0%, #261a62 100%);
+    background: linear-gradient(to right, #001515 0%, #002626 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0a1b35', endColorstr='#261a62', GradientType=1);
     /* IE6-9 */
@@ -664,7 +664,7 @@ ul.slide-menu-items li:hover .texto-item-slide-home {
 }
 
 .exibe-slide-container {
-    background-color: #DFF6FC;
+    background-color: #d2ffef;
     border-radius: 20px;
     min-height: 330px;
 }
@@ -760,7 +760,7 @@ ul.slide-menu-items li:hover .texto-item-slide-home {
     padding: 0 25px;
     font-size: 12px;
     font-weight: normal;
-    background-color: #121b44;
+    background-color: #001515;
     color: white;
     z-index: 4;
     border: none
@@ -834,7 +834,7 @@ section.footer .container .redes-sociais ul.navbar-nav li a {
 }
 
 section.copyright {
-    background-color: #06C7CC;
+    background-color: #00ef77;
     height: 50px;
     line-height: 50px;
     font-size: 14px;
