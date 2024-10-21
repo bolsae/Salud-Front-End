@@ -121,9 +121,11 @@ class SlideBeneficios extends Component {
                                                                 <h4 className="color-dark-blue">{beneficio.titulo}</h4>
                                                                 <p>{beneficio.descricao}</p>
                                                                 {
+                                                                    /*
                                                                     beneficio.id === 1
                                                                         ? <img className='logo-rede-mais-saude' src='/imagens/logo-rede-mais-saude.png' />
                                                                         : ''
+                                                                        */
                                                                 }
 
                                                                 {

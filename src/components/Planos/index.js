@@ -64,8 +64,7 @@ export default class Planos extends Component {
                                     key={plano.id}
                                     comboId={plano.id}
                                     valor={plano.valor}
-                                    /*titulo={plano.plano}*/
-                                    titulo="Benefícios"
+                                    titulo={plano.plano}
                                     beneficios={plano.beneficios}
                                     idGetnet={plano.id_getnet}
                                     totalBeneficios={this.verificaMaiorQtdeBeneficios()}

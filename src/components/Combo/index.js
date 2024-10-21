@@ -39,7 +39,7 @@ export class Combo extends Component {
         }
 
         return (
-            <div className="col-lg-12 col-md-6">
+            <div className="col-lg-6 col-md-6">
                 <div className="box-plano">
                     <div className="topo-plano  text-center">
                         <svg id="Layer_1" data-name="Layer 1" className="shadow-svg-topo-plano" xmlns="http://www.w3.org/2000/svg"
