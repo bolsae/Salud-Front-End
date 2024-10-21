@@ -24,7 +24,7 @@ body {
 }
 
 .bg-light-blue {
-    background-color: #00ef77;
+    background-color: #45e099;
 }
 
 .bg-dark-blue {
@@ -44,7 +44,7 @@ body {
 }
 
 .color-light-blue {
-    color: #00ef77;
+    color: #45e099;
 }
 
 .color-black {
@@ -142,7 +142,7 @@ body {
 }
 
 .carousel-indicators .active {
-    background-color: #00ef77;
+    background-color: #45e099;
 }
 
 .carousel {
@@ -619,7 +619,7 @@ ul.slide-menu-items li {
     display: flex;
     cursor: pointer;
     background-color: #d2ffef;
-    border-bottom: 1px dashed #00ef77;
+    border-bottom: 1px dashed #45e099;
 }
 
 ul.slide-menu-items li:hover {
@@ -834,7 +834,7 @@ section.footer .container .redes-sociais ul.navbar-nav li a {
 }
 
 section.copyright {
-    background-color: #00ef77;
+    background-color: #45e099;
     height: 50px;
     line-height: 50px;
     font-size: 14px;
