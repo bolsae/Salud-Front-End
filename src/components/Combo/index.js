@@ -17,13 +17,15 @@ export class Combo extends Component {
     }
 
     montaLiBeneficios() {
-        let rows = [<li key={0}></li>]
+         let rows = [<li key={0}></li>]
 
         for (var i = 0; i < this.props.totalBeneficios; i++) {
             if (this.props.beneficios[i] !== undefined) {
                 let nome = this.props.beneficios[i].nome
-                //let id = this.props.beneficios[i].id
-                rows.push(<li key={i}>{nome}</li>)
+                let id = this.props.beneficios[i].id
+
+                let poeAsteriscoEmDependente = this.props.comboId === 3 && [2,4,11].includes(this.props.beneficios[i].id) ? '*' : ''
+                rows.push(<li key={i}>{nome} {poeAsteriscoEmDependente}</li>)
             }
             else {
                 rows.push(<li key={i}></li>)
