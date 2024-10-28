@@ -39,7 +39,7 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a className="btn btn-white btn-outline-primary btn-sm color-white" href="#">Sou Cliente</a>
+                        <a className="btn btn-white btn-outline-primary btn-sm color-white" href="https://clientes.secuidae.com.br/" target='__blank'>Sou Cliente</a>
                     </li>
                     <li className="nav-item">
                         <a className="btn btn-white btn-outline-primary btn-sm color-white" href="#">Sou Prestador</a>
