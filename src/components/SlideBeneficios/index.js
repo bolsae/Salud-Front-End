@@ -136,8 +136,15 @@ class SlideBeneficios extends Component {
                                                                 }
 
                                                                 <div className='container-btn-beneficios'>
+                                                                    
                                                                     <a className="btn bg-btn-plano-1 color-white btn-lg" href="#">Eu Quero</a>
-                                                                    <a className="btn bg-light-blue color-white btn-lg" target="_blank" href={`${beneficio.link}`} rel="noreferrer">Regulamento</a>
+                                                                    {
+                                                                   
+                                                                    (beneficio.link !== "") ? (
+                                                                        <a className="btn bg-light-blue color-white btn-lg" target="_blank" href={`${beneficio.link}`} rel="noreferrer">Regulamento</a>
+                                                                    ) : '' 
+                                                                    }
+                                                                                                                                        
                                                                     <a className="btn bg-red color-white btn-lg" href="#" onClick={this.onClick}>Cobertura</a>
                                                                 </div>
                                                             </div>
