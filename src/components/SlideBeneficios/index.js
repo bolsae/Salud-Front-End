@@ -55,6 +55,8 @@ class SlideBeneficios extends Component {
         </Modal>
     }
 
+    /* MODAL DE COBERTURA DE BENEFICIOS */
+    /*
     onClick = (event) => {
         event.preventDefault()
 
@@ -69,7 +71,7 @@ class SlideBeneficios extends Component {
 
         this.props.exibeModal(true)
     }
-
+    */
 
     render() {
 
@@ -138,15 +140,21 @@ class SlideBeneficios extends Component {
                                                                 <div className='container-btn-beneficios'>
                                                                     
                                                                     <a className="btn bg-btn-plano-1 color-white btn-lg" href="#">Eu Quero</a>
-                                                                    {
-                                                                   
-                                                                    (beneficio.link !== "") ? (
+                                                                    {                                                                   
+                                                                    (beneficio.link != null) ? (
                                                                         <a className="btn bg-light-blue color-white btn-lg" target="_blank" href={`${beneficio.link}`} rel="noreferrer">Como Utilizar</a>
-                                                                    ) : '' 
+                                                                        ) : '' 
                                                                     }
-                                                                                                                                        
-                                                                    <a className="btn bg-red color-white btn-lg" href="#" onClick={this.onClick}>Cobertura</a>
-                                                                </div>
+
+                                                                    {
+                                                                    
+                                                                    
+                                                                    (beneficio.cobertura != null) ? (                                                                   
+                                                                        <a className="btn bg-red color-white btn-lg" /*onClick={this.onClick}*/  target="_blank" href={`${beneficio.cobertura}`} rel="noreferrer">Cobertura</a>
+                                                                        ) : '' 
+                                                                    }
+                                                                        
+                                                                    </div>
                                                             </div>
                                                         </div>
                                                     </div>
