@@ -141,7 +141,7 @@ class SlideBeneficios extends Component {
                                                                     {
                                                                    
                                                                     (beneficio.link !== "") ? (
-                                                                        <a className="btn bg-light-blue color-white btn-lg" target="_blank" href={`${beneficio.link}`} rel="noreferrer">Regulamento</a>
+                                                                        <a className="btn bg-light-blue color-white btn-lg" target="_blank" href={`${beneficio.link}`} rel="noreferrer">Como Utilizar</a>
                                                                     ) : '' 
                                                                     }
                                                                                                                                         
