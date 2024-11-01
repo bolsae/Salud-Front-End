@@ -92,7 +92,7 @@ class SlideBeneficios extends Component {
                                                 <li className="slide-menu-items-1" key={index} onClick={() => this.beneficioClicado(index)} >
                                                     <img className="img-icone-slide-home" src={`/imagens/${beneficio.icone}`} />
                                                     <span className="texto-item-slide-home color-dark-blue">
-                                                        {beneficio.titulo}
+                                                        {beneficio.nome}
                                                     </span>
                                                 </li>
                                             )
@@ -121,7 +121,7 @@ class SlideBeneficios extends Component {
                                                             <div className="texto-slide-box text-left">
                                                                 <span className="passo color-red">{cont} de {this.state.beneficios.length}</span>
                                                                 <h4 className="color-dark-blue">{beneficio.titulo}</h4>
-                                                                <p>{beneficio.descricao}</p>
+                                                                <p dangerouslySetInnerHTML={{ __html: beneficio.descricao }}></p>
                                                                 {
                                                                     /*
                                                                     beneficio.id === 1

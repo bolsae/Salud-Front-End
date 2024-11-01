@@ -684,6 +684,11 @@ ul.slide-menu-items li:hover .texto-item-slide-home {
     margin: 0 0 0 10px;
 }
 
+.conteudo-slide-home .img-slide-box {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
 .conteudo-slide-home .texto-slide-box .passo {
     font-weight: bold;
     font-size: 13px;
