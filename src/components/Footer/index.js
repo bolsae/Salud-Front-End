@@ -29,6 +29,12 @@ const Footer = () => {
 
                                 <div className="col-lg-12 col-sm-6">
                                     <div className="contato-footer">
+                                        <a style={{color: '#00ef77', fontSize: '14px', padding: '10px 0', display: 'block'}} target='_blank' href={`https://web.whatsapp.com/send?phone=55${config.WHATSAPP}`} rel="noreferrer"><strong>FALE PELO WHATSAPP</strong></a>
+                                    </div>
+                                </div>
+
+                                <div className="col-lg-12 col-sm-6">
+                                    <div className="contato-footer">
                                         <img src="./imagens/icone-telefone-footer.png" alt="telefone" /> <span className="color-white">{config.TELEFONE}</span>
                                     </div>
                                 </div>
