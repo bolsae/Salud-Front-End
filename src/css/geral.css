@@ -885,7 +885,7 @@ form label {
     height: 50px;
     padding: 10px 0px 10px 50px;
     width: 0px;
-    border-radius: 10px 0px 0px 10px !important;
+    border-radius: 10px 0px 0px 10px;
     font: 16px/16px calibri;
     color: #000;
 }
