@@ -871,6 +871,34 @@ form label {
     justify-content: space-between;
 }
 
+#ligaTag {
+    background: url('/public/imagens/icone_tag_phone.png') center left 7px no-repeat #eee;
+    top: 150px;
+}
+
+.abaClicavel {
+    transition: all 0.5s;
+    position: fixed;
+    z-index: 99;
+    cursor: pointer;
+    right: 0px;
+    height: 50px;
+    padding: 10px 0px 10px 50px;
+    width: 0px;
+    border-radius: 10px 0px 0px 10px !important;
+    font: 16px/16px calibri;
+    color: #000;
+}
+
+.abaClicavel div {
+    padding-top: 5px
+}
+
+.abaClicavel:hover {
+    width: 200px;
+    padding-right: 10px;
+}
+
 
 /* scrollbar */
 /* width */
