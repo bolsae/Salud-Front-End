@@ -35,7 +35,7 @@ const Footer = () => {
 
                                 <div className="col-lg-12 col-sm-6">
                                     <div className="contato-footer">
-                                        <img src="./imagens/icone-telefone-footer.png" alt="telefone" /> <span className="color-white">{config.TELEFONE}</span>
+                                        <img src="./imagens/icone-telefone-footer.png" alt="telefone" /> <span className="color-white">{config.WHATSAPP}</span>
                                     </div>
                                 </div>
 
