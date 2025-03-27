@@ -17,15 +17,25 @@ export class Combo extends Component {
     }
 
     montaLiBeneficios() {
-         let rows = [<li key={0}></li>]
-
+        let rows = [<li key={0}></li>]
+    
         for (var i = 0; i < this.props.totalBeneficios; i++) {
             if (this.props.beneficios[i] !== undefined) {
-                let nome = this.props.beneficios[i].nome
+                let nome = this.props.beneficios[i].nome 
+                
+                // Substituindo '-' por quebras de linha utilizando split e intercalando <br/>
+                const nomeComQuebra = nome.split('-').reduce((acc, curr, index, arr) => {
+                    acc.push(curr);
+                    if (index < arr.length - 1) {
+                        acc.push(<br key={index} />);
+                    }
+                    return acc;
+                }, []);
+    
                 let id = this.props.beneficios[i].id
-
-                let poeAsteriscoEmDependente = this.props.comboId === 3 && [2,4,11].includes(this.props.beneficios[i].id) ? '*' : ''
-                rows.push(<li key={i}>{nome} {poeAsteriscoEmDependente}</li>)
+    
+                let poeAsteriscoEmDependente = this.props.comboId === 3 && [2,4,11].includes(id) ? '*' : '';
+                rows.push(<li key={i}>{nomeComQuebra} {poeAsteriscoEmDependente}</li>)
             }
             else {
                 rows.push(<li key={i}></li>)
@@ -33,7 +43,7 @@ export class Combo extends Component {
         }
         return rows
     }
-
+    
     render() {
 
         if (this.state.redirect) {
